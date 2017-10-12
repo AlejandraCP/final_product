@@ -31,15 +31,15 @@ function isValidCard(){
             if((charValue * 2) <= 9 ){
                 sum += (charValue * 2);
             }
-        // Si el producto es mayor a 9, se separan los dígitos del producto y se suman.
-        if ((charValue * 2) > 9){
-            // El producto se convierte a string para separar los dígitos.
-            var twoDigits = (charValue * 2).toString();
-            var sumDigits = parseInt(twoDigits[0]) + parseInt(twoDigits[1]);
-            sum += sumDigits;
+            // Si el producto es mayor a 9, se separan los dígitos del producto y se suman.
+            if ((charValue * 2) > 9){
+                // El producto se convierte a string para separar los dígitos.
+                var twoDigits = (charValue * 2).toString();
+                var sumDigits = parseInt(twoDigits[0]) + parseInt(twoDigits[1]);
+                sum += sumDigits;
+            }
         }
     }
-}
 
   // Si el residuo se sum entre 10 es cero, el número de tarjeta es válido.
   // Si el residuo se sum entre 10 no es cero, el número de tarjeta no es válido.
