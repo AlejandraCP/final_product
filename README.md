@@ -56,3 +56,12 @@ Algoritmo tarjeta_de_credito
 FinAlgoritmo
 
 ~~~
+
+##### Squad AKpadawan  
+* Ornella Ysabel Campos Yallico yay.  
+* Melissa Nataly Ortiz Diaz.   
+* Diana Raquel Huamanchay Melendez.
+* María Alejandra Cabrera Pérez.
+* Pilar Jannet Varillas Montoya.
+* Yolanda Ventura Chavez.
+* Gloria Ramos Chuchón.
